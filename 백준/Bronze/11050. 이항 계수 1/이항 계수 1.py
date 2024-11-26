@@ -1,15 +1,12 @@
-import sys
-input = sys.stdin.readline
-
-N, K = map(int, input().split())
+n, k = map(int, input().split(" "))
 
 result = 1
-for i in range(K):
-    result *= N
-    N -= 1
+for i in range (k):
+  result *= n
+  n -= 1
 
-divisor = 1
-for i in range(2, K+1):
-    divisor *= i
+div = 1
+for i in range (1,k+1):
+  div *= i
 
-print(result // divisor)
+print(result//div)
