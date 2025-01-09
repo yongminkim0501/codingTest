@@ -42,14 +42,16 @@ arr = deque(list(map(int, input().split())))
 brr = list(map(int, input().split()))
 
 result = 0
-
-for i in range(n-1):
+crnt = brr[0]
+for i in range(1, n):
     if len(arr) == 0:
         break
-    result += brr[i]*(arr.popleft())
-    if brr[i] < brr[i+1]:
-        result += brr[i]*(arr.popleft())
+    if crnt < brr[i]:
+        result += crnt*(arr.popleft())
     else:
+        result += crnt*(arr.popleft())
+        crnt = brr[i]
         continue
+
 print(result)        
 
