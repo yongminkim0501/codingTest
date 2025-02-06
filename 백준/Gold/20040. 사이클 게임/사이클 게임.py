@@ -63,8 +63,10 @@ c에 속한 임의의 선분의 한 끝점에서 출발하여 모든 선분을
 import sys
 sys.setrecursionlimit(10**5)
 def find(x):
-    if arr[x] != x:
-        arr[x] = find(arr[x])
+    if arr[x] == x:
+        return x
+    
+    arr[x] = find(arr[x])
     return arr[x]
 
 def union(x, y):
