@@ -9,14 +9,9 @@ def solution(clothes):
             dic[key] = 1
             
     dot_answer = 1
-    
-    if len(list(dic.values())) == 1:
-        answer += list(dic.values())[0]
-        
-    else:
-        for count in dic.values():
-            dot_answer *= (count+1)
-            
-        answer += (dot_answer-1)
-    
+    for count in dic.values():
+        dot_answer *= (count+1)
+
+    answer += (dot_answer-1)
+
     return answer
