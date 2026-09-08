@@ -26,6 +26,7 @@ Study for coding test
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/yongminkim0501/codingTest/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/yongminkim0501/codingTest/tree/master/0128-longest-consecutive-sequence) |
 | [0221-maximal-square](https://github.com/yongminkim0501/codingTest/tree/master/0221-maximal-square) |
+| [0300-longest-increasing-subsequence](https://github.com/yongminkim0501/codingTest/tree/master/0300-longest-increasing-subsequence) |
 ## Union-Find
 |  |
 | ------- |
@@ -35,8 +36,17 @@ Study for coding test
 | ------- |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/yongminkim0501/codingTest/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0221-maximal-square](https://github.com/yongminkim0501/codingTest/tree/master/0221-maximal-square) |
+| [0300-longest-increasing-subsequence](https://github.com/yongminkim0501/codingTest/tree/master/0300-longest-increasing-subsequence) |
 ## Matrix
 |  |
 | ------- |
 | [0221-maximal-square](https://github.com/yongminkim0501/codingTest/tree/master/0221-maximal-square) |
+## Binary Search
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/yongminkim0501/codingTest/tree/master/0300-longest-increasing-subsequence) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/yongminkim0501/codingTest/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
